@@ -276,7 +276,7 @@ function JetBullet() {
       explosion: new Explosion(),
     });
 
-  this.speed = 5; //jet bullet speed
+  this.speed = 30; //jet bullet speed
   this.visiable = true; //new
 }
 
@@ -339,7 +339,7 @@ function enemyBullet() {
       explosion: new Explosion(),
     });
   console.log(this.enemyBulletoptions.srcX);
-  this.speed = 200; //bullet speed
+  this.speed = 180; //bullet speed
   this.visiable = true; //new
 }
 enemyBullet.prototype.drawBulletCanvas = function () {
@@ -422,7 +422,7 @@ function Enemy() {
   //this.warOptions = [];
   //new end
   //this.rewardPoints = 5;
-  this.speed = 5; //enemy speed
+  this.speed = 35; //enemy speed
 }
 //Enemy.prototype.verticalMovement = 0.5; //new
 Enemy.prototype.drawEnemyCanvas = function () {
